@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git submodule update --recursive
+git submodule update --init --recursive
 
 mkdir build
 cd build
